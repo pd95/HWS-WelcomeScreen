@@ -20,10 +20,7 @@ struct ContentView: View {
         VStack(spacing: 20) {
             ScrollView {
                 VStack(spacing: 20) {
-                    Image(uiImage: UIImage(named: "AppIcon") ?? UIImage())
-                        .resizable()
-                        .scaledToFill()
-                        .frame(width: 60)
+                    AppIcon()
                         .cornerRadius(10)
                         .accessibilityHidden(true)
 
