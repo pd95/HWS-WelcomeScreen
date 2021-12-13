@@ -11,6 +11,7 @@
 		17B119FE2767CFB000931441 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B119FD2767CFB000931441 /* ContentView.swift */; };
 		17B11A002767CFB000931441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17B119FF2767CFB000931441 /* Assets.xcassets */; };
 		17B11A032767CFB000931441 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17B11A022767CFB000931441 /* Preview Assets.xcassets */; };
+		17B11A0A2767D0A800931441 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B11A092767D0A800931441 /* Feature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		17B119FD2767CFB000931441 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		17B119FF2767CFB000931441 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17B11A022767CFB000931441 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		17B11A092767D0A800931441 /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				17B119FB2767CFB000931441 /* WelcomeScreenApp.swift */,
 				17B119FD2767CFB000931441 /* ContentView.swift */,
+				17B11A092767D0A800931441 /* Feature.swift */,
 				17B119FF2767CFB000931441 /* Assets.xcassets */,
 				17B11A012767CFB000931441 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17B11A0A2767D0A800931441 /* Feature.swift in Sources */,
 				17B119FE2767CFB000931441 /* ContentView.swift in Sources */,
 				17B119FC2767CFB000931441 /* WelcomeScreenApp.swift in Sources */,
 			);
